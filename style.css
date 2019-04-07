@@ -29,6 +29,7 @@ body {
 }
 
 .img {
+    display: block;
     height: auto;
     width: 100%;
 }
@@ -129,3 +130,14 @@ body {
 }
 
 /*Higlight*/
+
+.highlight {
+    display: flex;
+
+}
+
+.highlight-img {
+ width: 50%;
+ height: 50%;
+ margin: -30px 0px 0px;
+}
