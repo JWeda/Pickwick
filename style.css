@@ -1,0 +1,131 @@
+/*general*/
+html {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0px auto;
+    /* border: red solid 1px; */
+    position: relative;
+}
+
+.img {
+    height: auto;
+    width: 100%;
+}
+
+.liquid-button {
+    border-radius: 45px;
+    background-color: #4b9618;
+    color: white;
+    padding: 12.5px 20px;
+    font-weight: 700;
+    background-image: url(https://www.pickwick.nl/siteassets/_new/iconselements/buttons/liquid-fill-white.svg);
+    background-repeat: repeat-x;
+    background-position: 0 -140%;
+    border: white solid 2px;
+    transition: all 0.65s ease;
+    animation-play-state: paused
+}
+
+.liquid-button:hover {
+    color: #4b9618;
+    background-position: 120% 30%;
+    ;
+    border: #4b9618 solid 2px;
+}
+
+/*Header*/
+
+.header {
+    /* border: blue solid 1px; */
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 0px;
+}
+
+.nav-item {
+    margin: 10px;
+}
+
+.logo {
+    min-width: 100px;
+}
+
+/*Hero*/
+
+.hero {
+    position: relative;
+}
+
+.hero-img {
+    width: 100%;
+    z-index: -1;
+    margin-top: -100px;
+}
+
+.hero-text {
+    position: absolute;
+    padding: 20% 10%;
+    margin: auto;
+    top: 0px;
+    left: 0px;
+}
+
+.hero-title {
+    color: white;
+    font-family: 'Merienda', cursive;
+    font-size: 56px;
+}
+
+.hero-par {
+    color: white;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+    font-weight: 500;
+    font-size: 24px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.curve-mask {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  /* padding-bottom: 10px; */
+
+}
+
+/*Higlight*/
